@@ -21,27 +21,16 @@ Ce projet vise à développer un système de détection et de localisation de fe
 Nous avons testé nos modèles sur des vidéos réelles et annoté les résultats. Voici les liens vers les vidéos démontrant les performances de nos modèles :
 
 1. **Détection de feu, départ de feu et absence de feu** :  
-   [Vidéo de détection](https://youtu.be/_klmNDs02vY)
+   [Vidéo de détection](https://www.youtube.com/watch?v=_kJmNDs02vY)
 
 2. **Localisation des zones de feu et de fumée avec YOLO** :  
-   [Vidéo de localisation](https://youtu.be/vq-laiUJwVO)
+   [Vidéo de localisation](https://www.youtube.com/watch?v=vq-IaiUJwV0)
 
 3. **Combinaison de détection et localisation** :  
-   [Vidéo combinée](https://youtu.be/bBL225O-4Jc)
-
-## Comment utiliser
-
-1. **Télécharger les données** : Les données utilisées pour ce projet sont disponibles sur [Nextcloud](https://nextcloud.lg.umons.ac.be/s/RsZpgtYfDgYzKxr).
-2. **Entraîner les modèles** : Les scripts pour entraîner les modèles sont fournis dans le dépôt. Utilisez `train_resnet.py`, `train_yolo.py`, etc., pour entraîner chaque modèle.
-3. **Tester sur des vidéos** : Utilisez les scripts de test pour appliquer les modèles sur des vidéos et évaluer leurs performances.
+   [Vidéo combinée](https://www.youtube.com/watch?v=bBL225O-4Jc)
 
 ## Auteurs
 
 - **Nicolas Melaerts** - Développeur du projet.
 - **Manu Mathey** - Développeur du projet.
 
-## Références
-
-- **ResNet** : [Article original](https://arxiv.org/pdf/1512.03385)
-- **YOLO** : [Site officiel](https://pjreddie.com/darknet/yolo/)
-- **Vision Transformers** : [Article original](https://arxiv.org/abs/2010.11929)
